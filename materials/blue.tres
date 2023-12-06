@@ -1,6 +1,11 @@
-[gd_resource type="StandardMaterial3D" format=3 uid="uid://bbfkhkmct7wu3"]
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://bbfkhkmct7wu3"]
+
+[ext_resource type="Texture2D" uid="uid://i3socwr0u334" path="res://materials/texture_rock_albedo.png" id="1_lbpxb"]
 
 [resource]
-albedo_color = Color(0.551806, 0.709299, 0.980989, 1)
-metallic = 0.31
-roughness = 0.42
+depth_draw_mode = 2
+albedo_color = Color(1, 1, 1, 0)
+albedo_texture = ExtResource("1_lbpxb")
+metallic = 1.0
+roughness = 0.62
+normal_enabled = true
